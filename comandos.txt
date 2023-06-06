@@ -1,0 +1,32 @@
+  509  mkdir 20230605-AlexanderMachicadoGomez
+  510  cd 20230605-AlexanderMachicadoGomez/
+  511  git init
+  512  git remote add origin https://github.com/Dexametasona/20230605-AlexanderMachicadoGomez.git
+  513  git push -u origin main
+  514  touch comandos.txt main.js index.html
+  515  git add .
+  516  git commit -m "commit 01 de AlexanderMachicadoGomez"
+  517  git push -u origin main
+  518  git checkout -b feature
+  519  mkdir Hardware Software SeguridadInformatica
+  520  touch Hardware/resumen.txt
+  521  touch Software/resumen.txt
+  522  touch SeguridadInformatica/resumen.txt
+  523  git push -u origin feature
+  524  git status
+  525  git add .
+  526  git commit -m "commit 02 de AlexanderMachicadoGomez"
+  527  git push origin feature
+  528  git checkout main
+  529  mv main.js resumenHardware.txt
+  530  ls
+  531  mv index.html resumenSoftware.txt
+  532  nano resumenSoftware.txt
+  533  nano resumenHardware.txt.txt
+  534  cat resumenHardware.txt
+  535  ls
+  536  rm resumenHardware.txt
+  537  ls
+  538  mv resumenHardware.txt.txt resumenHardware.txt
+  539  ls
+  540  history
